@@ -15,14 +15,21 @@
             width: 500px;
             height: 400px;
         }
+        .btn{
+            display: inline-flex;
+        }
         
     </style>
 </head>
 <body id="pageBody">
     <p id="text">Hello, VIP!</p>
 <button id="themeToggle">Toggle Theme</button>
-<textarea name="textarea" id="textarea" oninput="counter()"></textarea>
-<p id="count">Chracters left: <span></span> </p>
+<textarea name="textarea" id="textarea"></textarea>
+<p >Chracters left: <span id="count">100</span> </p>
 <script src="domBonus.js"></script>
+<p>image slideshow </p>
+<img src="" id="slideshow" width="400px" height="300px">
+<button type="button" id="next" class="btn">NEXT</button>
+<button type="button" id="prev" class="btn">PREV</button>
 </body>
 </html>
