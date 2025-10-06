@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #textarea{
+            width: 500px;
+            height: 400px;
+        }
+        
+    </style>
+</head>
+<body id="pageBody">
+    <p id="text">Hello, VIP!</p>
+<button id="themeToggle">Toggle Theme</button>
+<textarea name="textarea" id="textarea" oninput="counter()"></textarea>
+<p id="count">Chracters left: <span></span> </p>
+<script src="domBonus.js"></script>
+</body>
+</html>
