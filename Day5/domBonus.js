@@ -75,6 +75,7 @@ next.addEventListener("click",(event)=>{
         index =0;
     }
     slideshow.src = images[index];
+    
 })
 
 prev.addEventListener("click",(event)=>{
