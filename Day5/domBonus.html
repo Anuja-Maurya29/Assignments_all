@@ -6,14 +6,15 @@
     <title>Document</title>
     <style>
         body{
+            height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
         #textarea{
-            width: 500px;
-            height: 400px;
+            width: 300px;
+            height: 200px;
         }
         .btn{
             display: inline-flex;
@@ -26,10 +27,18 @@
 <button id="themeToggle">Toggle Theme</button>
 <textarea name="textarea" id="textarea"></textarea>
 <p >Chracters left: <span id="count">100</span> </p>
-<script src="domBonus.js"></script>
 <p>image slideshow </p>
 <img src="" id="slideshow" width="400px" height="300px">
 <button type="button" id="next" class="btn">NEXT</button>
 <button type="button" id="prev" class="btn">PREV</button>
+<p>Auto hide notifications</p>
+<button id="notification">Show Notification</button>
+<div id="notify"></div>
+<p>Stop Watch</p>
+<h3>COUNTER <span id="counter">0</span> </h3>
+<button type="button" id="start">START</button>
+<div><p>Current Mouse <span id="x">0</span> <span id="y">0</span> </p></div>
+<p>TYPE WRITER SAYS: <span id="welcome"></span></p>
+<script src="domBonus.js"></script>
 </body>
 </html>
